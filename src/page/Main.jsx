@@ -18,7 +18,7 @@ export default function Main() {
       <div className={styles.under_header}>
         <div className={styles.under_header__item}>
           <div className={styles.under_header__title}>
-            Единый сервис — контроль финансов в бизнесе
+            Финансы для бизнеса — приложение для контроля финансов в бизнесе
           </div>
           <div className={styles.under_header__text}>
             Следите за счетами и делайте платежи онлайн
@@ -37,7 +37,7 @@ export default function Main() {
         <TextBlock direction="column">
           <Title size="40px" position="right">
             {' '}
-            Аналитические обзоры и рекомендации
+            Оформляйте счета, карты и другие продукты без визита в офис.
           </Title>
         </TextBlock>
       </ContentBlock>
@@ -45,7 +45,7 @@ export default function Main() {
       <ContentBlock bg="sky_blue" direction="row" gap={0} gridColumn="1/7">
         <TextBlock direction="column">
           <Title size="40px" position="right">
-            Оформляйте счета, карты и другие продукты без визита в офис.
+            Следите за балансом счетов и операциями.
           </Title>
         </TextBlock>
         <ImageBlock size="normal" radius={true} src={logo3} />
@@ -55,7 +55,7 @@ export default function Main() {
         <ImageBlock size="normal" radius={true} src={logo4} />
         <TextBlock direction="column">
           <Title size="40px" position="right">
-            Пользуйтесь автозаполнением реквизитов для платежей и переводов.
+            Формируйте выписки по счетам в любом формате.
           </Title>
         </TextBlock>
       </ContentBlock>
@@ -63,7 +63,7 @@ export default function Main() {
       <ContentBlock bg="sky_blue" direction="row" gap={0} gridColumn="1/7">
         <TextBlock direction="column">
           <Title size="40px" position="right">
-            Оформляйте счета, карты и другие продукты без визита в офис.
+            Пользуйтесь автозаполнением реквизитов для платежей и переводов.
           </Title>
         </TextBlock>
         <ImageBlock size="normal" radius={true} src={logo5} />
